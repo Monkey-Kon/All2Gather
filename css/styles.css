@@ -18,7 +18,7 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
-	background-color: #fff0e0;
+	background-color: #006620;
 }
 
 /* Effect on social media buttons */
@@ -41,4 +41,41 @@ footer a:hover {
 		.02em .02em .02em white,
 		0 0 .2em white,
 		0 0 .5em white;
+}
+
+.title2 {
+	color: #006620;
+
+	position: relative;
+	font-family: "Odor Mean Chey";
+	font-size: 180px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 9px;
+}
+
+.title {
+	color: #000;
+
+	position: absolute;
+	bottom: 29%;
+	left: 25%;
+	font-family: "Odor Mean Chey";
+	font-size: 180px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 9px;
+
+}
+
+\.motto {
+	color: #D6FF62;
+
+	font-family: Anta;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
