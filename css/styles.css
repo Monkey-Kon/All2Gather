@@ -22,7 +22,13 @@ header {
 /* Changing the background color for the navigation bar */
 
 .navbar {
+	color: #006620;
 	background-color: #FFF7ED;
+	font-family: "Odor Mean Chey";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
 }
 
 /* Effect on social media buttons */
