@@ -1,0 +1,155 @@
+main {
+    background-color: #fff7ed2b;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+    background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+    color: #006620;
+    background-color: #FFF7ED;
+    font-family: "Odor Mean Chey";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+    opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+    text-shadow: -.01em -.01em .01em white,
+        .02em .02em .02em white,
+        0 0 .2em white,
+        0 0 .5em white;
+}
+
+section {
+    position: center;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.about {
+    position: center;
+    margin: auto;
+    font-family: "Odor Mean Chey";
+    font-size: 190px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.box1 {
+    background-color: #312f2f;
+    width: 100%;
+}
+
+.box2 {
+    width: 1817px;
+    height: 897px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #006620;
+}
+
+.meet {
+    border-radius: 21.258px;
+    background: #000;
+    width: 475px;
+    height: 584px;
+    flex-shrink: 0;
+    margin-right: 900px;
+}
+
+.meet2 {
+    border-radius: 40px;
+    background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+
+    width: 445px;
+    height: 554px;
+    flex-shrink: 0;
+    aspect-ratio: 445/554;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+
+.jeroen {
+    width: 228px;
+    height: 269px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 57%;
+    top: 350px;
+    font-size: 20px;
+}
+
+.jur {
+    width: 228px;
+    height: 269px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 44%;
+    top: 350px;
+}
+
+.iria {
+    width: 228px;
+    height: 269px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 31%;
+    top: 350px;
+}
+
+.aries {
+    width: 228px;
+    height: 269px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 18%;
+    top: 350px;
+}
+
+.sarah {
+    width: 228px;
+    height: 269px;
+    flex-shrink: 0;
+    position: absolute;
+    right: 5%;
+    top: 350px;
+}
+
+.stand {
+    font-family: "Odor Mean Chey";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
