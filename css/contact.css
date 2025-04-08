@@ -1,0 +1,128 @@
+/* Importing a Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+
+/* Changing the main font and background colour */
+
+main {
+    background-color: #fff7ed2b;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+    background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+    color: #006620;
+    background-color: #FFF7ED;
+    font-family: "Odor Mean Chey";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+    opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+    text-shadow: -.01em -.01em .01em white,
+        .02em .02em .02em white,
+        0 0 .2em white,
+        0 0 .5em white;
+}
+
+.contact-section {
+    width: 100%;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3rem 1rem;
+}
+
+.contact-intro>*+* {
+    margin-top: 1rem;
+}
+
+.contact-title {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    font-weight: 700;
+}
+
+.contact-description {
+    color: rgb(107 114 128);
+}
+
+.form-group-container {
+    display: grid;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    margin-bottom: 0.5rem;
+}
+
+.form-input,
+.form-textarea {
+    padding: 0.5rem;
+    border: 1px solid #e5e7eb;
+    display: flex;
+    height: 2.5rem;
+    width: 100%;
+    border-radius: 0.375rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.form-input::placeholder,
+.form-textarea:focus-visible {
+    color: #6b7280;
+}
+
+.form-input:focus-visible,
+.form-textarea:focus-visible {
+    outline: 2px solid #2563eb;
+    outline-offset: 2px;
+}
+
+.form-textarea {
+    min-height: 120px;
+}
+
+.form-submit {
+    width: 100%;
+    margin-top: 1.2rem;
+    background-color: #3124ca;
+    color: #fff;
+    padding: 13px 5px;
+    border-radius: 0.375rem;
+}
