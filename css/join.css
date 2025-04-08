@@ -1,0 +1,159 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Container */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    /* Gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    color: #fff;
+}
+
+.container {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Team Selection Cards */
+.team-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.team-card {
+    width: 100%;
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 18px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.team-card input[type="radio"] {
+    display: none;
+}
+
+.team-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Color Themes for Team Cards */
+.team-a .card-content {
+    background-color: #ff6f61;
+    /* Team A's color */
+    color: white;
+}
+
+.team-b .card-content {
+    background-color: #4CAF50;
+    /* Team B's color */
+    color: white;
+}
+
+.team-c .card-content {
+    background-color: #007BFF;
+    /* Team C's color */
+    color: white;
+}
+
+.card-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.4;
+}
+
+.team-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Additional Text Section */
+.additional-text {
+    margin-top: 40px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    color: #333;
+    text-align: left;
+}
+
+.additional-text h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.additional-text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.5;
+}
+
+/* Submit Button */
+.submit-btn {
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.submit-btn:hover {
+    background-color: #0056b3;
+}

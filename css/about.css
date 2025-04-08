@@ -63,7 +63,7 @@ footer a:hover {
 
 /* Body and general styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: "Odor Mean Chey";
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
@@ -71,13 +71,12 @@ body {
 
 /* About Us Section */
 .about-us {
-    background: linear-gradient(135deg, #2b3d52, #4a6a82);
+    background: linear-gradient(135deg, #006620, #d6ff62);
     color: white;
     padding: 80px 20px;
     text-align: center;
     background-size: cover;
     background-position: center;
-    border-bottom: 5px solid #f4f4f9;
 }
 
 .about-us .container {
