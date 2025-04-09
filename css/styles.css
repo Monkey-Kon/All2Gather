@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
 
 /* Changing the main font and background colour */
 
@@ -25,8 +26,8 @@ header {
 .navbar {
 	color: #006620;
 	background-color: #FFF7ED;
-	font-family: "Odor Mean Chey";
-	font-size: 20px;
+	font-family: "Boldonse", system-ui;
+	font-size: 15px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
@@ -58,21 +59,21 @@ footer a:hover {
 	color: #E50D00;
 
 	position: absolute;
-	font-family: "Odor Mean Chey";
+	font-family: "Boldonse", system-ui;
 	font-size: 190px;
 	font-style: normal;
 	font-weight: 400;
 	line-height: normal;
 	letter-spacing: 9px;
 	z-index: 1000;
-	margin-right: 342px;
+	margin-right: 580px;
 }
 
 .title2 {
 	color: #fff7ed;
 
 	position: absolute;
-	font-family: "Odor Mean Chey";
+	font-family: "Boldonse", system-ui;
 	font-size: 180px;
 	font-style: normal;
 	font-weight: 400;
@@ -80,13 +81,14 @@ footer a:hover {
 	letter-spacing: 9px;
 	grid-column: 4/7;
 	grid-row: 6/8;
+	margin-right: 5px;
 }
 
 .title {
 	color: #000;
 
 	position: absolute;
-	font-family: "Odor Mean Chey";
+	font-family: "Boldonse", system-ui;
 	font-size: 180px;
 	font-style: normal;
 	font-weight: 400;
@@ -102,13 +104,13 @@ footer a:hover {
 	margin-top: 200px;
 	margin-left: 500px;
 	position: absolute;
-	font-family: "Odor Mean Chey";
+	font-family: "Boldonse", system-ui;
 	font-size: 30px;
 	font-style: normal;
 	font-weight: 30;
 	line-height: normal;
 	letter-spacing: 1px;
-	margin-top: 200px;
+	margin-top: 250px;
 	margin-right: 10px;
 }
 

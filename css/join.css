@@ -1,3 +1,59 @@
+/* Importing a Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+
+/* Changing the main font and background colour */
+
+main {
+    background-color: #fff7ed2b;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+    background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+    color: #006620;
+    background-color: #FFF7ED;
+    font-family: "Odor Mean Chey";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+    opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+    text-shadow: -.01em -.01em .01em white,
+        .02em .02em .02em white,
+        0 0 .2em white,
+        0 0 .5em white;
+}
+
 /* Reset */
 * {
     margin: 0;
@@ -7,14 +63,9 @@
 
 /* Body and Container */
 body {
-    font-family: 'Arial', sans-serif;
     background: linear-gradient(to right, #6a11cb, #2575fc);
     /* Gradient background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
-    padding: 20px;
     color: #fff;
 }
 
@@ -23,6 +74,7 @@ body {
     border-radius: 12px;
     box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
     padding: 40px;
+    margin: 40px;
     width: 100%;
     max-width: 800px;
     text-align: center;
