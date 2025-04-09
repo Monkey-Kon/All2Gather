@@ -123,6 +123,7 @@ body {
     margin: 0 auto;
 }
 
+.vision h2,
 .mission h2,
 .team h2,
 .values h2 {
@@ -136,6 +137,7 @@ body {
     margin-bottom: 20px;
 }
 
+.vision p,
 .mission p,
 .team p,
 .values ul {

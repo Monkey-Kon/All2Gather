@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+.navbar {
+    color: #006620;
+    background-color: #FFF7ED;
+    font-family: "Boldonse", system-ui;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+    opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+    text-shadow: -.01em -.01em .01em white,
+        .02em .02em .02em white,
+        0 0 .2em white,
+        0 0 .5em white;
+}
+
+/* GENERAL STYLES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Boldonse", system-ui;
+    color: #1d1d1d;
+    background: #f8f8f8;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h1,
+h2 {
+    color: #0a3d62;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    background: #0a3d62;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #145374;
+}
+
+/* HERO */
+.hero {
+    background: #006620;
+    color: #fff7ed;
+    text-shadow: 1px 1px 3px #000;
+    padding: 120px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* ABOUT */
+.about {
+    background: #fff7ed;
+    font-family: "Boldonse", system-ui;
+    color: #006620;
+}
+
+.about p {
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+}
+
+/* PROGRAMS */
+.programs {
+    background: #d5ff6275;
+    font-family: "Boldonse", system-ui;
+}
+
+.programs h3 {
+    font-family: "Boldonse", system-ui;
+}
+
+.programs p {
+    font-family: "Slabo 27px", serif;
+    font-size: 20px;
+}
+
+.program-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.program-card {
+    background: #fff7ed;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* TEAM */
+.team {
+    background: #ffffff;
+}
+
+.coach-grid {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.coach-card {
+    text-align: center;
+}
+
+.coach-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
+.coach-card h4 {
+    margin: 10px 0 5px;
+    color: #0a3d62;
+}
+
+/* CONTACT */
+.contact {
+    background: #0a3d62;
+    color: white;
+    text-align: center;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #060b11;
+    color: #ffffffcc;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    padding: 30px 20px;
+    border-top: 1px solid #1e1e1e;
+}
+
+.footer-top p {
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-top strong {
+    color: #fff;
+}
+
+.social-icons {
+    margin: 15px 0;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    background-color: #101820;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 50%;
+    padding: 12px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+    background-color: #222;
+    transform: scale(1.1);
+}
+
+.footer-links {
+    margin: 20px 0;
+}
+
+.footer-links a {
+    display: inline-block;
+    margin: 5px 10px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #666;
+    padding: 10px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.footer-links a:hover {
+    background-color: #1e1e1e;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 13px;
+    color: #666;
+}
+
+.footer-bottom a {
+    color: #7cbcc3;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
