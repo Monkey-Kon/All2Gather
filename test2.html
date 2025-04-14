@@ -2,13 +2,11 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join a Team</title>
-    <link rel="stylesheet" href="css/join.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What We Do</title>
+    <link rel="stylesheet" href="css/test2.css" />
 </head>
-<!doctype html>
-<html lang="en" class="h-100">
 
 <head>
     <meta charset="utf-8">
@@ -33,7 +31,7 @@
 
 </head>
 
-<body class="h-100 d-flex flex-column" background="images/soccer.jpg">
+<body class="h-100 d-flex flex-column">
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -67,49 +65,52 @@
         </div>
     </nav>
 
-    <body>
-        <div class="container">
-            <h1>Join a Team</h1>
-            <p>Select a team to join:</p>
+    <section id="about" class="hero">
+        <h1>What We Do</h1>
+    </section>
 
-            <!-- Team Selection Cards -->
-            <div class="team-cards">
-                <label class="team-card" for="team1">
-                    <input type="radio" id="team1" name="team" value="Team A" required>
-                    <div class="card-content team-a">
-                        <img src="images/basketball1.png" alt="Team A Image" class="team-img">
-                        <h3>Team A</h3>
-                        <p>Join Team A and take on exciting challenges!</p>
-                    </div>
-                </label>
-
-                <label class="team-card" for="team2">
-                    <input type="radio" id="team2" name="team" value="Team B">
-                    <div class="card-content team-b">
-                        <img src="images/basketball2.png" alt="Team B Image" class="team-img">
-                        <h3>Team B</h3>
-                        <p>Join Team B and collaborate with others!</p>
-                    </div>
-                </label>
-
-                <label class="team-card" for="team3">
-                    <input type="radio" id="team3" name="team" value="Team C">
-                    <div class="card-content team-c">
-                        <img src="images/basketball3.png" alt="Team C Image" class="team-img">
-                        <h3>Team C</h3>
-                        <p>Join Team C and lead the way to success!</p>
-                    </div>
-                </label>
-            </div>
-
-            <div class="additional-text">
-                <h2>Additional Information</h2>
-                <p>Let get started, These are the teams that need people in your area. We have ranked them in the order
-                    they fit best for you. </p>
-            </div>
-
-            <button type="submit" class="submit-btn">Join Team</button>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="cards">
+            <a href="#find-team" class="card">
+                <h3>Find a Team</h3>
+                <p>Connect with local players who share your passion. Join existing teams or start your own in just a
+                    few clicks.</p>
+            </a>
+            <a href="#book-match" class="card">
+                <h3>Book a Match</h3>
+                <p>Want to play this weekend? Easily book or schedule a friendly match with other teams near you.</p>
+            </a>
+            <a href="#organize-training" class="card">
+                <h3>Organize a Training</h3>
+                <p>Set up training sessions for your team. Choose the time, location, and skill focus and we’ll help
+                    manage the details.</p>
+            </a>
         </div>
-    </body>
+    </section>
+
+
+    <section id="how-it-works" class="how-it-works">
+        <h2>How it works</h2>
+        <div class="steps">
+            <div class="step">
+                <div class="icon">1</div>
+                <p>Create a Profile</p>
+            </div>
+            <div class="step">
+                <div class="icon">2</div>
+                <p>Browse Teams and Matches</p>
+            </div>
+            <div class="step">
+                <div class="icon">3</div>
+                <p>Join, Train, Play!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="cta">
+        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">Get Started</button>
+    </footer>
+</body>
 
 </html>

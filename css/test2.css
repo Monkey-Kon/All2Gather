@@ -1,0 +1,215 @@
+/* Smooth scrolling */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Odor+Mean+Chey&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+
+/* Changing the main font and background colour */
+
+main {
+    background-color: #fff7ed2b;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: #fffcf8;
+}
+
+/* Changing the background colour for the header */
+
+header {
+    background-color: #000060;
+}
+
+/* Changing the background color for the navigation bar */
+
+.navbar {
+    color: #006620;
+    background-color: #FFF7ED;
+    font-family: "Boldonse", system-ui;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Effect on social media buttons */
+
+footer a:hover {
+    opacity: .5;
+}
+
+/* Corporate navbar */
+
+#navbar-corporate a.active {
+    color: #800000;
+    font-weight: bold;
+}
+
+/* Hero Section shadow */
+
+.white-shadow {
+    text-shadow: -.01em -.01em .01em white,
+        .02em .02em .02em white,
+        0 0 .2em white,
+        0 0 .5em white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: white;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to bottom, #4CAF50, #388E3C);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    background-color: yellow;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+nav a {
+    color: #000;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.login a {
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 20px;
+    background-image: url('grass-pattern.jpg');
+    /* optional background */
+    background-size: cover;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.services {
+    background-color: #222;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+/* Make the card links behave like blocks */
+.cards a.card {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 20px;
+    border: 2px solid #4CAF50;
+    width: 250px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-sizing: border-box;
+}
+
+.cards a.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #4CAF50;
+}
+
+.cards a.card h3 {
+    background-color: #4CAF50;
+    padding: 10px;
+    margin: -20px -20px 10px -20px;
+    color: black;
+}
+
+
+
+.how-it-works {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #333;
+}
+
+.how-it-works h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.step {
+    width: 150px;
+    text-align: center;
+}
+
+.step .icon {
+    background-color: #4CAF50;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    margin: 0 auto 10px;
+}
+
+.cta {
+    background-color: #111;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.cta button {
+    background-color: #00cc44;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+}
