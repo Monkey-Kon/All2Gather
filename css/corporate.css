@@ -12,8 +12,9 @@ main {
 }
 
 body {
-    font-family: Raleway, sans-serif;
+    font-family: "Slabo 27px", serif;
     background-color: #FFF7ED;
+    font-size: 18px;
 }
 
 /* Changing the background colour for the header */
@@ -62,7 +63,7 @@ footer a:hover {
 
 h1 {
     color: #fff7ED;
-    font-family: "Odor Mean Chey";
+    font-family: "Boldonse", system-ui;
     font-size: 50px;
     font-style: normal;
     font-weight: 400;
@@ -71,7 +72,7 @@ h1 {
 
 h2 {
     color: #006620;
-    font-family: "Odor Mean Chey";
+    font-family: "Boldonse", system-ui;
     font-size: 40px;
     font-style: normal;
     font-weight: 400;
