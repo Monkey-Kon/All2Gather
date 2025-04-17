@@ -104,54 +104,57 @@
 
         <button type="submit" class="submit-btn" onclick="openModal(' Join the Team')">Join Team</button>
     </div>
-    <footer class="footer">
-        <div class="footer-top">
-            <p>All rights reserved by <strong>All2Gather</strong></p>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/all.2gather/"><i class="fab fa-instagram"></i></a>
-                <a
-                    href="https://www.tiktok.com/@all.2.gather?_t=ZN-8us0lb4QqJT&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAafKRAn3emP9pUkzPjZ8FRVdnRGqgnH0ge-zFrc-ZnHQM5mS00Hd8Wmj5BvPzA_aem_9OlJvGhq1zU_0CVQNFV7VQ"><i
-                        class="fab fa-tiktok"></i></a>
-            </div>
-            <div class="footer-links">
-                <a href="#">Privacy Policy</a>
-                <a href="#">Cookie Policy</a>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <p>
-                The brand image and graphics were created by Aries.<br />
-                Coded by Jeroen de Groot.
-            </p>
-        </div>
-    </footer>
-</body>
 
+    <script>
+        var modal = document.getElementById("modal");
+        var span = document.getElementsByClassName("close")[0];
 
+        function openModal(day) {
+            document.getElementById("modal-day").innerText = day;
+            modal.style.display = "block";
+        }
 
-<script>
-    var modal = document.getElementById("modal");
-    var span = document.getElementsByClassName("close")[0];
-
-    function openModal(day) {
-        document.getElementById("modal-day").innerText = day;
-        modal.style.display = "block";
-    }
-
-    function setAvailability() {
-        alert("Joined Team A");
-        modal.style.display = "none";
-    }
-
-    span.onclick = function () {
-        modal.style.display = "none";
-    }
-
-    window.onclick = function (event) {
-        if (event.target == modal) {
+        function setAvailability() {
+            alert("Joined Team A");
             modal.style.display = "none";
         }
-    }
-</script>
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+
+<footer class="footer">
+    <div class="footer-top">
+        <p>All rights reserved by <strong>All2Gather</strong></p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/all.2gather/"><i class="fab fa-instagram"></i></a>
+            <a
+                href="https://www.tiktok.com/@all.2.gather?_t=ZN-8us0lb4QqJT&_r=1&fbclid=PAZXh0bgNhZW0CMTEAAafKRAn3emP9pUkzPjZ8FRVdnRGqgnH0ge-zFrc-ZnHQM5mS00Hd8Wmj5BvPzA_aem_9OlJvGhq1zU_0CVQNFV7VQ"><i
+                    class="fab fa-tiktok"></i></a>
+        </div>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>
+            The brand image and graphics were created by Aries.<br />
+            Coded by Jeroen de Groot.
+        </p>
+    </div>
+</footer>
+
+
+
+
 
 </html>
