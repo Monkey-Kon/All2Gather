@@ -47,7 +47,7 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html"><img src="images/logo.png"
+                        <a class="nav-link active" aria-current="page" href="index.html"><img src="images/brandlogo.png"
                                 width="50"></a>
                     </li>
                     <li class="nav-item">
@@ -113,8 +113,15 @@
                 <p>Let get started, These are the teams that need people in your area. We have ranked them in the order
                     they fit best for you. </p>
             </div>
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h2>You sure you want to<span id="modal-day"></span></h2>
+                    <button onclick="setAvailability()">Join</button>
+                </div>
+            </div>
 
-            <button type="submit" class="submit-btn">Join Team</button>
+            <button type="submit" class="submit-btn" onclick="openModal(' Join the Team')">Join Team</button>
         </div>
     </body>
     <footer class="footer">
@@ -138,5 +145,30 @@
             </p>
         </div>
     </footer>
+
+    <script>
+        var modal = document.getElementById("modal");
+        var span = document.getElementsByClassName("close")[0];
+
+        function openModal(day) {
+            document.getElementById("modal-day").innerText = day;
+            modal.style.display = "block";
+        }
+
+        function setAvailability() {
+            alert("Joined Team A");
+            modal.style.display = "none";
+        }
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 
 </html>
