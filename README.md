@@ -13,7 +13,7 @@ This one page example uses the following patterns:
 
 ### See it at work!
 
-The project is published at <https://buas-media-interactive.github.io/prj4-group-template> **PLEASE REPLACE THIS ADDRESS WITH YOUR PROJECT'S URL WHEN PUBLISHING YOUR WEBSITE**
+The project is published at (https://monkey-kon.github.io/All2Gather/index.html)
 
 ### Create your own group website
 
