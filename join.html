@@ -27,7 +27,7 @@
 
 </head>
 
-<body class="h-100 d-flex flex-column" background="images/soccer.jpg">
+<body>
 
     <!-- Navigation bar, adapted from https://getbootstrap.com/docs/5.1/components/navbar/ -->
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -67,57 +67,56 @@
         </div>
     </nav>
 
-    <body>
-        <div class="container">
-            <h1>Join a Team</h1>
-            <p>Select a team to join:</p>
 
-            <!-- Team Selection Cards -->
-            <div class="team-cards">
-                <label class="team-card" for="team1">
-                    <input type="radio" id="team1" name="team" value="Team A" required>
-                    <div class="card-content team-a">
-                        <img src="images/basketball1.png" alt="Team A Image" class="team-img">
-                        <h3>Team A</h3>
-                        <p>Join Team A and take on exciting challenges!</p>
-                    </div>
-                </label>
+    <div class="container">
+        <h1>Join a Team</h1>
+        <p>Select a team to join:</p>
 
-                <label class="team-card" for="team2">
-                    <input type="radio" id="team2" name="team" value="Team B">
-                    <div class="card-content team-b">
-                        <img src="images/basketball2.png" alt="Team B Image" class="team-img">
-                        <h3>Team B</h3>
-                        <p>Join Team B and collaborate with others!</p>
-                    </div>
-                </label>
-
-                <label class="team-card" for="team3">
-                    <input type="radio" id="team3" name="team" value="Team C">
-                    <div class="card-content team-c">
-                        <img src="images/basketball3.png" alt="Team C Image" class="team-img">
-                        <h3>Team C</h3>
-                        <p>Join Team C and lead the way to success!</p>
-                    </div>
-                </label>
-            </div>
-
-            <div class="additional-text">
-                <h2>Additional Information</h2>
-                <p>Let get started, These are the teams that need people in your area. We have ranked them in the order
-                    they fit best for you. </p>
-            </div>
-            <div id="modal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <h2>You sure you want to<span id="modal-day"></span></h2>
-                    <button onclick="setAvailability()">Join</button>
+        <!-- Team Selection Cards -->
+        <div class="team-cards">
+            <label class="team-card" for="team1">
+                <input type="radio" id="team1" name="team" value="Team A" required>
+                <div class="card-content team-a">
+                    <img src="images/basketball1.png" alt="Team A Image" class="team-img">
+                    <h3>Team A</h3>
+                    <p>Join Team A and take on exciting challenges!</p>
                 </div>
-            </div>
+            </label>
 
-            <button type="submit" class="submit-btn" onclick="openModal(' Join the Team')">Join Team</button>
+            <label class="team-card" for="team2">
+                <input type="radio" id="team2" name="team" value="Team B">
+                <div class="card-content team-b">
+                    <img src="images/basketball2.png" alt="Team B Image" class="team-img">
+                    <h3>Team B</h3>
+                    <p>Join Team B and collaborate with others!</p>
+                </div>
+            </label>
+
+            <label class="team-card" for="team3">
+                <input type="radio" id="team3" name="team" value="Team C">
+                <div class="card-content team-c">
+                    <img src="images/basketball3.png" alt="Team C Image" class="team-img">
+                    <h3>Team C</h3>
+                    <p>Join Team C and lead the way to success!</p>
+                </div>
+            </label>
         </div>
-    </body>
+
+        <div class="additional-text">
+            <h2>Additional Information</h2>
+            <p>Let get started, These are the teams that need people in your area. We have ranked them in the order
+                they fit best for you. </p>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>You sure you want to<span id="modal-day"></span></h2>
+                <button onclick="setAvailability()">Join</button>
+            </div>
+        </div>
+
+        <button type="submit" class="submit-btn" onclick="openModal(' Join the Team')">Join Team</button>
+    </div>
     <footer class="footer">
         <div class="footer-top">
             <p>All rights reserved by <strong>All2Gather</strong></p>
@@ -139,30 +138,33 @@
             </p>
         </div>
     </footer>
+</body>
 
-    <script>
-        var modal = document.getElementById("modal");
-        var span = document.getElementsByClassName("close")[0];
 
-        function openModal(day) {
-            document.getElementById("modal-day").innerText = day;
-            modal.style.display = "block";
-        }
 
-        function setAvailability() {
-            alert("Joined Team A");
+<script>
+    var modal = document.getElementById("modal");
+    var span = document.getElementsByClassName("close")[0];
+
+    function openModal(day) {
+        document.getElementById("modal-day").innerText = day;
+        modal.style.display = "block";
+    }
+
+    function setAvailability() {
+        alert("Joined Team A");
+        modal.style.display = "none";
+    }
+
+    span.onclick = function () {
+        modal.style.display = "none";
+    }
+
+    window.onclick = function (event) {
+        if (event.target == modal) {
             modal.style.display = "none";
         }
-
-        span.onclick = function () {
-            modal.style.display = "none";
-        }
-
-        window.onclick = function (event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    }
+</script>
 
 </html>
