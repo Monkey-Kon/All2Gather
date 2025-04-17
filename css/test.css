@@ -92,7 +92,7 @@ a {
     text-shadow: 1px 1px 3px #000;
     padding: 120px 20px;
     text-align: center;
-    background-image: url('/images/baseball.jpg');
+    background-image: url('../images/baseball.jpg');
     background-size: fit;
     background-repeat: no-repeat;
 }
